@@ -1,9 +1,4 @@
-import shrinkRay from 'shrink-ray-current'
-
 export default {
-  render: {
-    compressor: shrinkRay()
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Maximilian Flechtner',
@@ -33,7 +28,6 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
-    '@nuxtjs/pwa',
   ],
 
   fontawesome: {
@@ -43,35 +37,9 @@ export default {
     },
   },
 
-  pwa: {
-    manifest: {
-      name: 'Maximilian Flechtner',
-      lang: 'de',
-    }
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    'nuxt-ssr-cache',
-    ['nuxt-compress', {
-      brotli: {
-        threshold: 8192,
-      },
-    }],
-  ],
-
-
-  cache: {
-    useHostPrefix: false,
-    pages: [
-      '/',
-    ],
-    store: {
-      type: 'memory',
-      max: 100,
-      ttl: 60,
-    },
-  },
+  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
