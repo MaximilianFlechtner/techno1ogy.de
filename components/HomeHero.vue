@@ -45,7 +45,7 @@
     <div
       class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 w-full mt-10 lg:mt-0"
     >
-      <picture
+      <img
         class="
           h-56
           w-full
@@ -55,10 +55,9 @@
           md:h-96
           lg:w-full lg:h-full
         "
-      >
-        <source srcset="/me.webp" type="image/webp" />
-        <img src="/me.jpeg" alt="Maximilian Flechtner" />
-      </picture>
+        src="/me.jpeg"
+        alt="Maximilian Flechtner"
+      />
     </div>
   </div>
 </template>
