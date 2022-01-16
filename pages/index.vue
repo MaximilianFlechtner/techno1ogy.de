@@ -53,7 +53,18 @@
       </div>
     </HomeHero>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:my-40 my-20 max-w-7xl mx-auto lg:px-0 px-6">
+    <div
+      class="
+        grid grid-cols-1
+        md:grid-cols-2
+        lg:my-40
+        my-20
+        max-w-7xl
+        mx-auto
+        lg:px-0
+        px-6
+      "
+    >
       <div>
         <HomeCard
           title="Web Entwicklung"
@@ -96,8 +107,14 @@
             Geschichte.
           </div>
           <div class="mt-5">
-            <a target="_blank" href="https://www.instagram.com/maximilian_technology/">
-              <font-awesome-icon class="text-4xl" :icon="['fab', 'instagram']" />
+            <a
+              target="_blank"
+              href="https://www.instagram.com/maximilian_technology/"
+            >
+              <font-awesome-icon
+                class="text-4xl"
+                :icon="['fab', 'instagram']"
+              />
             </a>
           </div>
         </div>
@@ -115,26 +132,25 @@
           gap-x-14 gap-y-4
         "
       >
-      <div class="mb-10">
-        <h2
-          class="
-            text-4xl
-            tracking-tight
-            font-bold
-            text-gray-900
-            sm:text-5xl
-            md:text-6xl
-            mt-10
-            break-inside
-          "
-        >
-          Projekte
-        </h2>
-        <small>Perfekte Lösungen für digitale Präsenz.</small>
-      </div>
+        <div class="mb-10">
+          <h2
+            class="
+              text-4xl
+              tracking-tight
+              font-bold
+              text-gray-900
+              sm:text-5xl
+              md:text-6xl
+              mt-10
+              break-inside
+            "
+          >
+            Projekte
+          </h2>
+          <small>Perfekte Lösungen für digitale Präsenz.</small>
+        </div>
         <a href="https://wsv-arendsee.de/" target="_blank">
-          <img
-            src="wsv.png"
+          <picture
             class="
               break-inside
               shadow-lg
@@ -148,27 +164,30 @@
               w-auto
               ease-in-out
             "
-            alt="wsv-arendsee.de"
-          />
+          >
+            <source srcset="wsv.webp" type="image/webp" />
+            <img src="wsv.png" alt="wsv-arendsee.de" />
+          </picture>
         </a>
         <a href="https://drachenboot-potsdam.de/" target="_blank">
-        <img
-          src="potsdam.png"
-          class="
-            break-inside
-            shadow-lg
-            rounded-lg
-            transform
-            transition
-            duration-500
-            hover:scale-105
-            my-5
-            h-auto
-            w-auto
-            ease-in-out
-          "
-          alt="drachenboot-potsdam.de"
-        />
+          <picture
+            class="
+              break-inside
+              shadow-lg
+              rounded-lg
+              transform
+              transition
+              duration-500
+              hover:scale-105
+              my-5
+              h-auto
+              w-auto
+              ease-in-out
+            "
+          >
+            <source srcset="potsdam.webp" type="image/webp" />
+            <img src="potsdam.png" alt="drachenboot-potsdam.de" />
+          </picture>
         </a>
       </div>
     </div>
