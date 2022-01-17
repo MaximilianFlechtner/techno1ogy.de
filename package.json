@@ -24,6 +24,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1"

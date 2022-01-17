@@ -110,6 +110,7 @@
             <a
               target="_blank"
               href="https://www.instagram.com/maximilian_technology/"
+              rel="external"
             >
               <font-awesome-icon
                 class="text-4xl"
@@ -149,7 +150,7 @@
           </h2>
           <small>Perfekte Lösungen für digitale Präsenz.</small>
         </div>
-        <a href="https://wsv-arendsee.de/" target="_blank">
+        <a href="https://wsv-arendsee.de/" target="_blank" rel="external">
           <picture
             class="
               break-inside
@@ -169,7 +170,7 @@
             <img src="wsv.png" alt="wsv-arendsee.de" />
           </picture>
         </a>
-        <a href="https://drachenboot-potsdam.de/" target="_blank">
+        <a href="https://drachenboot-potsdam.de/" target="_blank" rel="external">
           <picture
             class="
               break-inside
