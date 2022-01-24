@@ -17,6 +17,7 @@
               tracking-tight
               font-bold
               text-gray-900
+              dark:text-gray-100
               sm:text-5xl
               md:text-6xl
               mt-10
@@ -25,7 +26,7 @@
           >
             Projekte
           </h2>
-          <small>Perfekte Lösungen für digitale Präsenz.</small>
+          <small class="dark:text-gray-100">Perfekte Lösungen für digitale Präsenz.</small>
         </div>
         <div class="mb-5 md:mb-0">
             <a href="https://wsv-arendsee.de/" target="_blank" rel="external">

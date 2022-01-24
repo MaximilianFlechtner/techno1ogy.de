@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark:bg-gray-900 transition duration-500 ease-out">
     <HomeHero>
       <h1
         class="
@@ -7,6 +7,7 @@
           tracking-tight
           font-extrabold
           text-gray-900
+          dark:text-gray-100
           sm:text-5xl
           md:text-6xl
         "
@@ -14,13 +15,15 @@
         Impressum
       </h1>
     </HomeHero>
-    <div class="max-w-7xl mx-auto my-48">
+    <div class="max-w-7xl mx-auto my-48 dark:text-gray-100 transition duration-500 ease-out">
         <h2
           class="
             text-4xl
             tracking-tight
             font-bold
             text-gray-900
+            dark:text-gray-100
+            transition duration-500 ease-out
             sm:text-5xl
             md:text-6xl
             mt-10
@@ -41,6 +44,8 @@
             tracking-tight
             font-bold
             text-gray-900
+            dark:text-gray-100
+            transition duration-500 ease-out
             sm:text-5xl
             md:text-6xl
             mt-10
@@ -60,6 +65,8 @@
             tracking-tight
             font-bold
             text-gray-900
+            dark:text-gray-100
+            transition duration-500 ease-out
             sm:text-5xl
             md:text-6xl
             mt-10

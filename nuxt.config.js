@@ -76,11 +76,12 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/color-mode',
   ],
 
   fontawesome: {
     icons: {
-      solid: ['faWindowMaximize', 'faMobile', 'faCameraRetro'],
+      solid: ['faWindowMaximize', 'faMobile', 'faCameraRetro', 'faSun', 'faMoon'],
       brands: ['faInstagram'],
     },
   },
@@ -115,4 +116,16 @@ export default {
       ttl: 60,
     },
   },
+
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '',
+    storageKey: 'nuxt-color-mode'
+  }
+  
 }

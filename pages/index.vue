@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark:bg-gray-900 transition duration-500 ease-out">
     <HomeHero>
       <h1
         class="
@@ -7,6 +7,8 @@
           tracking-tight
           font-extrabold
           text-gray-900
+          dark:text-gray-100
+          transition duration-500 ease-out
           sm:text-5xl
           md:text-6xl
         "
@@ -17,7 +19,7 @@
       <p
         class="
           mt-3
-          text-base text-gray-500
+          text-base text-gray-500 dark:text-gray-400
           sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto
           md:mt-5 md:text-xl
           lg:mx-0
@@ -44,6 +46,7 @@
               text-white
               bg-green-400
               hover:bg-green-500
+              transition ease-in duration-200
               md:py-4 md:text-lg md:px-10
             "
           >
@@ -87,13 +90,15 @@
       </div>
       <div class="flex items-center mt-10 lg:mt-0">
         <div>
-          <small>Einführung</small>
+          <small class="dark:text-gray-100 transition duration-500 ease-out">Einführung</small>
           <h2
             class="
               text-4xl
               tracking-tight
               font-bold
               text-gray-900
+              dark:text-gray-100
+              transition duration-500 ease-out
               sm:text-5xl
               md:text-6xl
               mt-10
@@ -102,7 +107,7 @@
             Hey! Ich bin Maximilian
             <span class="text-yellow-400">Flechtner</span>
           </h2>
-          <div class="text-gray-900 mt-10 text-xl">
+          <div class="text-gray-900 dark:text-gray-100 transition duration-500 ease-out mt-10 text-xl">
             Jedes großartiges Projekt beginnt mit einer noch besseren
             Geschichte.
           </div>
@@ -113,7 +118,7 @@
               rel="external"
             >
               <font-awesome-icon
-                class="text-4xl"
+                class="text-4xl dark:text-gray-100 transition duration-500 ease-out" 
                 :icon="['fab', 'instagram']"
               />
             </a>
