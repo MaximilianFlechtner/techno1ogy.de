@@ -15,11 +15,11 @@
       ease-in-out
     "
   >
-    <div class="flex items-center">
-      <div class="w-1/4 flex items-center"> 
+    <div class="md:flex items-center">
+      <div class="w-1/4 flex items-center mb-4 md:mb-0"> 
         <font-awesome-icon :class="color + ' text-6xl'" :icon="icon" />
       </div>
-      <div>
+      <div class="w-full">
         <h2 class="text-gray-800 text-3xl font-semibold">{{ title }}</h2>
         <p class="mt-2 text-gray-600">{{ description }}</p>
       </div>

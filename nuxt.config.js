@@ -1,4 +1,7 @@
+import shrinkRay from 'shrink-ray-current'
+
 export default {
+  version: '1.0.0',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Maximilian Flechtner',
@@ -95,5 +98,21 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true,
+  },
+
+  render: {
+    compressor: shrinkRay()
+  },
+
+  cache: {
+    useHostPrefix: false,
+    pages: [
+      '/',
+    ],
+    store: {
+      type: 'memory',
+      max: 100,
+      ttl: 60,
+    },
   },
 }

@@ -57,6 +57,8 @@
         "
         src="/me.jpeg"
         alt="Maximilian Flechtner"
+        height="100vh"
+        width="100vw"
       />
     </div>
   </div>

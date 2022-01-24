@@ -857,6 +857,7 @@
             alt="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
             width="250"
             height="250"
+            loading="lazy"
         /></a>
       </p>
     </div>
