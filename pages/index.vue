@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-900 transition duration-500 ease-out">
+  <div>
     <HomeHero>
       <h1
         class="
@@ -8,7 +8,9 @@
           font-extrabold
           text-gray-900
           dark:text-gray-100
-          transition duration-500 ease-out
+          transition
+          duration-500
+          ease-out
           sm:text-5xl
           md:text-6xl
         "
@@ -19,7 +21,8 @@
       <p
         class="
           mt-3
-          text-base text-gray-500 dark:text-gray-400
+          text-base text-gray-500
+          dark:text-gray-400
           sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto
           md:mt-5 md:text-xl
           lg:mx-0
@@ -46,7 +49,9 @@
               text-white
               bg-green-400
               hover:bg-green-500
-              transition ease-in duration-200
+              transition
+              ease-in
+              duration-200
               md:py-4 md:text-lg md:px-10
             "
           >
@@ -90,7 +95,9 @@
       </div>
       <div class="flex items-center mt-10 lg:mt-0">
         <div>
-          <small class="dark:text-gray-100 transition duration-500 ease-out">Einführung</small>
+          <small class="dark:text-gray-100 transition duration-500 ease-out"
+            >Einführung</small
+          >
           <h2
             class="
               text-4xl
@@ -98,40 +105,91 @@
               font-bold
               text-gray-900
               dark:text-gray-100
-              transition duration-500 ease-out
+              transition
+              duration-500
+              ease-out
               sm:text-5xl
               md:text-6xl
-              mt-10
+              mt-5
             "
           >
             Hey! Ich bin Maximilian
             <span class="text-yellow-400">Flechtner</span>
           </h2>
-          <div class="text-gray-900 dark:text-gray-100 transition duration-500 ease-out mt-10 text-xl">
+          <div
+            class="
+              text-gray-900
+              dark:text-gray-100
+              transition
+              duration-500
+              ease-out
+              mt-10
+              text-xl
+            "
+          >
             Jedes großartiges Projekt beginnt mit einer noch besseren
             Geschichte.
           </div>
-          <div class="mt-5">
-            <a
+          <div class="mt-12">
+            <div class="grid grid-cols-3 w-48">
+              <a
               target="_blank"
               href="https://www.instagram.com/maximilian_technology/"
-              rel="external"
+              rel="noopener noreferrer"
+              aria-label="Instagram Maximilian Flechtner"
             >
               <font-awesome-icon
-                class="text-4xl dark:text-gray-100 transition duration-500 ease-out" 
+                class="
+                  text-4xl
+                  dark:text-gray-100
+                  transition
+                  duration-500
+                  ease-out
+                "
                 :icon="['fab', 'instagram']"
               />
             </a>
+            <a
+              target="_blank"
+              href="https://github.com/MaximilianFlechtner"
+              rel="noopener noreferrer"
+              aria-label="GitHub Maximilian Flechtner"
+            >
+              <font-awesome-icon
+                class="
+                  text-4xl
+                  dark:text-gray-100
+                  transition
+                  duration-500
+                  ease-out
+                "
+                :icon="['fab', 'github']"
+              />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/maximilian-flechtner-49030922b/"
+              rel="noopener noreferrer"
+              aria-label="Linkedin Maximilian Flechtner"
+            >
+              <font-awesome-icon
+                class="
+                  text-4xl
+                  dark:text-gray-100
+                  transition
+                  duration-500
+                  ease-out
+                "
+                :icon="['fab', 'linkedin']"
+              />
+            </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <Home-Projects></Home-Projects>
-
-    <Home-Social></Home-Social>
-
-    <Page-Footer></Page-Footer>
   </div>
 </template>
 

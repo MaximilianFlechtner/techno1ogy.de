@@ -11,6 +11,8 @@
         "
       >
         <div class="mb-10">
+          <small class="dark:text-gray-100 transition duration-500 ease-out"
+            >Portfolio</small>
           <h2
             class="
               text-4xl
@@ -20,7 +22,7 @@
               dark:text-gray-100
               sm:text-5xl
               md:text-6xl
-              mt-10
+              mt-5
               break-inside
             "
           >

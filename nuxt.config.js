@@ -81,8 +81,14 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faWindowMaximize', 'faMobile', 'faCameraRetro', 'faSun', 'faMoon'],
-      brands: ['faInstagram'],
+      solid: [
+        'faWindowMaximize',
+        'faMobile',
+        'faCameraRetro',
+        'faSun',
+        'faMoon',
+      ],
+      brands: ['faInstagram', 'faGithub', 'faLinkedin'],
     },
   },
 
@@ -102,14 +108,12 @@ export default {
   },
 
   render: {
-    compressor: shrinkRay()
+    compressor: shrinkRay(),
   },
 
   cache: {
     useHostPrefix: false,
-    pages: [
-      '/',
-    ],
+    pages: ['/'],
     store: {
       type: 'memory',
       max: 100,
@@ -125,7 +129,6 @@ export default {
     componentName: 'ColorScheme',
     classPrefix: '',
     classSuffix: '',
-    storageKey: 'nuxt-color-mode'
-  }
-  
+    storageKey: 'nuxt-color-mode',
+  },
 }
