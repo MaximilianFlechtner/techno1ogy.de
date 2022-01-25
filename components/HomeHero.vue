@@ -71,7 +71,7 @@
     <div
       class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 w-full mt-10 lg:mt-0"
     >
-      <img
+      <nuxt-img
         class="
           h-56
           w-full
@@ -85,6 +85,10 @@
         alt="Maximilian Flechtner"
         height="100vh"
         width="100vw"
+        sizes="xs:20vw sm:20vw md:50vw lg:100vw"
+        quality="90"
+        format="webp"
+        preload
       />
     </div>
   </div>
