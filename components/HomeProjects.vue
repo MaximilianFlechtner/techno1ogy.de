@@ -11,8 +11,7 @@
         "
       >
         <div class="mb-10">
-          <small class="dark:text-gray-100 transition duration-500 ease-out"
-            >Portfolio</small>
+          <small class="text-yellow-400 text-2xl">Portfolio</small>
           <h2
             class="
               text-4xl

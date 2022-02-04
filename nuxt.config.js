@@ -113,6 +113,11 @@ export default {
     compressor: shrinkRay(),
   },
 
+  loading: {
+    color: '#fbbf24',
+    height: '3px'
+  },
+
   cache: {
     useHostPrefix: false,
     pages: ['/'],

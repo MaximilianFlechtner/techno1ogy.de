@@ -73,7 +73,7 @@
         px-6
       "
     >
-      <div class="mb-20 md-mb-0">
+      <div class="mb-20 md:mb-0">
         <HomeCard
           title="Web Entwicklung"
           description="Ich erstelle individuelle Webseiten"
@@ -95,8 +95,7 @@
       </div>
       <div class="flex items-center mt-10 lg:mt-0">
         <div>
-          <small class="dark:text-gray-100 transition duration-500 ease-out"
-            >Einführung</small
+          <small class="text-yellow-400 text-2xl">Einführung</small
           >
           <h2
             class="
