@@ -87,6 +87,8 @@ export default {
         'faCameraRetro',
         'faSun',
         'faMoon',
+        'faWater',
+        'faLaptopCode'
       ],
       brands: ['faInstagram', 'faGithub', 'faLinkedin'],
     },
