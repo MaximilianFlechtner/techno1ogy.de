@@ -127,62 +127,68 @@
               text-xl
             "
           >
-            Jedes großartiges Projekt beginnt mit einer noch besseren
-            Geschichte.
+            Ich habe Erfahrung im Aufbau von iOS- und Android-Apps sowie mit der
+            Web-Entwicklung. Mittlerweile Programmiere ich seit 5 Jahren.
+            Angefangen habe ich mit der Web-Entwicklung, mittlerweile
+            interessiere ich mich hauptsächlich für die App Entwicklung.
+            Besonders interessant finde ich das Framework Flutter. Es fasziniert
+            mich von Tag zu Tag aus neue. Interessant ist jedoch nicht nur die
+            Technik hinter dem Projekt, sondern auch die Geschichte. In meiner
+            Freizeit Fotografiere ich gern.
           </div>
           <div class="mt-12">
             <div class="grid grid-cols-3 w-48">
               <a
-              target="_blank"
-              href="https://www.instagram.com/maximilian_technology/"
-              rel="noopener noreferrer"
-              aria-label="Instagram Maximilian Flechtner"
-            >
-              <font-awesome-icon
-                class="
-                  text-4xl
-                  dark:text-gray-100
-                  transition
-                  duration-500
-                  ease-out
-                "
-                :icon="['fab', 'instagram']"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/MaximilianFlechtner"
-              rel="noopener noreferrer"
-              aria-label="GitHub Maximilian Flechtner"
-            >
-              <font-awesome-icon
-                class="
-                  text-4xl
-                  dark:text-gray-100
-                  transition
-                  duration-500
-                  ease-out
-                "
-                :icon="['fab', 'github']"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/maximilian-flechtner-49030922b/"
-              rel="noopener noreferrer"
-              aria-label="Linkedin Maximilian Flechtner"
-            >
-              <font-awesome-icon
-                class="
-                  text-4xl
-                  dark:text-gray-100
-                  transition
-                  duration-500
-                  ease-out
-                "
-                :icon="['fab', 'linkedin']"
-              />
-            </a>
+                target="_blank"
+                href="https://www.instagram.com/maximilian_technology/"
+                rel="noopener noreferrer"
+                aria-label="Instagram Maximilian Flechtner"
+              >
+                <font-awesome-icon
+                  class="
+                    text-4xl
+                    dark:text-gray-100
+                    transition
+                    duration-500
+                    ease-out
+                  "
+                  :icon="['fab', 'instagram']"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/MaximilianFlechtner"
+                rel="noopener noreferrer"
+                aria-label="GitHub Maximilian Flechtner"
+              >
+                <font-awesome-icon
+                  class="
+                    text-4xl
+                    dark:text-gray-100
+                    transition
+                    duration-500
+                    ease-out
+                  "
+                  :icon="['fab', 'github']"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/maximilian-flechtner-49030922b/"
+                rel="noopener noreferrer"
+                aria-label="Linkedin Maximilian Flechtner"
+              >
+                <font-awesome-icon
+                  class="
+                    text-4xl
+                    dark:text-gray-100
+                    transition
+                    duration-500
+                    ease-out
+                  "
+                  :icon="['fab', 'linkedin']"
+                />
+              </a>
             </div>
           </div>
         </div>
